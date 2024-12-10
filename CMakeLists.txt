@@ -3,6 +3,4 @@ project(SchoolGithub)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(SchoolGithub main.cpp
-        main2.cpp
-        main2.h)
+add_executable(SchoolGithub main.cpp)
