@@ -7,16 +7,16 @@ int main() {
     int arr[] = {5, 3, 8, 4, 6};
     bool swap;
     for (a = 0; a < s; a++) {
-        swap == false;
+        swap = false; // Fixed assignment
         for (b = 0; b < s - 1; b++) {
             if (arr[b] > arr[b + 1]) {
                 int temp = arr[b];
-                arr[b] = arr[a + 1];
+                arr[b] = arr[b + 1]; // Fixed indexing
                 arr[b + 1] = temp;
                 swap = true;
             }
         }
-        if (swap == false)
+        if (!swap) // Simplified condition
             break;
     }
     for (int c = 0; c < s; c++) {
