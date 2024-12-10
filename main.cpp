@@ -7,7 +7,7 @@ int main() {
     int arr[] = {5, 3, 8, 4, 6};
     bool swap;
     for (a = 0; a < s; a++) {
-        swap = false;
+        swap == false;
         for (b = 0; b < s - 1; b++) {
             if (arr[b] > arr[b + 1]) {
                 int temp = arr[b];
@@ -16,10 +16,10 @@ int main() {
                 swap = true;
             }
         }
-        if (swap = false)
+        if (swap == false)
             break;
     }
-    for (int c = 0; c < size; c++) {
+    for (int c = 0; c < s; c++) {
         cout << arr[c] << "  ";
     }
 }
